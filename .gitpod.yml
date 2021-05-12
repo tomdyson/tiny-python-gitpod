@@ -1,0 +1,8 @@
+ports:
+- port: 8000
+tasks:
+  command: >
+    python --version
+github:
+    prebuilds:
+        pullRequestsFromForks: true
